@@ -15,5 +15,5 @@ console.log(estudante);
 const estudanteVazio = {};
 estudanteVazio.nome = "Ana Maria";
 console.log(estudanteVazio);
-
+console.log();
 // adicionando propiedade
