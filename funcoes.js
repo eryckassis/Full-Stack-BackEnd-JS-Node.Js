@@ -1,10 +1,12 @@
-// parametros / argumentos
-// retorno
-
-function exibirInfoEstudante(nome, nota) {
-  return `o nome é ${nome} e a nota é ${nota} `;
-}
-
-console.log(exibirInfoEstudante("Caroline", 10));
-console.log(exibirInfoEstudante("Ana", 7));
-console.log(exibirInfoEstudante("Fernando", 5));
+const estudante = {
+  nome: "José Silva",
+  idade: 32,
+  cpf: "12312312312",
+  turma: "JavaScript",
+  bolsista: true,
+  telefones: ["551199999998", "551199999993"],
+  media: 7.5,
+  estaAprovado: function (mediaBase) {
+    return this.media >= mediaBase ? true : false;
+  },
+};

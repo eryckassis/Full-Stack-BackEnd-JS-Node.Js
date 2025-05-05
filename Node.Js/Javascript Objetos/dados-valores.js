@@ -15,7 +15,7 @@ estudante.endereco = {
 
 console.log(estudante.endereco.rua);
 
-const evento = {
-  nome: "Aniversario",
-  data: new Date(2000, 5, 15),
-};
+// const evento = {
+//   nome: "Aniversario",
+//   data: new Date(2000, 5, 15),
+// };

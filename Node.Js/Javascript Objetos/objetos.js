@@ -1,4 +1,4 @@
-const listaCpf = ["12345678900", "98765432100", "12312312300"];
+const listaCpf = ["12345678900", "98765432100", "12312312300 "];
 const listaNumeros = ["4, 5, 5, 5, "];
 
 const listaNomes = ["nome", "Maria", "José", "idade, 32"];
@@ -10,3 +10,4 @@ const objPessoa = {
   cpf: "12345678900",
   turma: "Js",
 };
+// console.log(objPessoa.nome);
