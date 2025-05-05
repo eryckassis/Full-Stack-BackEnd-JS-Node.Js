@@ -10,3 +10,4 @@ const objPessoa = {
   cpf: "12345678900",
   turma: "Js",
 };
+console.log();
