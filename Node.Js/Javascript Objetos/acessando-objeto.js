@@ -29,4 +29,3 @@ function exibeInfoPet(objPet, infoPet) {
 }
 console.log(pet.nome);
 console.log(`a cor do cachorro é ${pet.cor}`);
-console.log();
