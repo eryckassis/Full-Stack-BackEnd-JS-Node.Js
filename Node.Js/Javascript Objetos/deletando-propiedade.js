@@ -17,4 +17,3 @@ delete objPersonagem["status"];
 
 console.log(objPersonagem.aliado);
 console.log(objPersonagem.status);
-console.log();
