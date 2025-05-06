@@ -18,3 +18,9 @@ const estudante = {
     },
   ],
 };
+
+const chavesObjeto = Object.keys(estudante);
+
+if (!chavesObjeto.includes("enderecos")) {
+  console.error("Chave 'enderecos' não encontrada no objeto estudante.");
+}
