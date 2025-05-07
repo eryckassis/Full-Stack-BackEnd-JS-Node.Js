@@ -8,3 +8,4 @@ jantarDeHoje.push("salada");
 jantarDeHoje.push("maçã");
 
 console.log(jantarDeHoje);
+console.log(jantarDeHoje.length);

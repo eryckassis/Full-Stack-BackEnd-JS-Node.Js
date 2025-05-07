@@ -24,3 +24,8 @@ const chavesObjeto = Object.keys(estudante);
 if (!chavesObjeto.includes("enderecos")) {
   console.error("Chave 'enderecos' não encontrada no objeto estudante.");
 }
+// Verifica se a chave 'enderecos' existe no objeto estudante
+// Se não existir, exibe uma mensagem de erro no console
+// Caso contrário
+// exibe uma mensagem de sucesso no console
+console.log("Chave 'enderecos' encontrada no objeto estudante.");
