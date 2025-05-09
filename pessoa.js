@@ -26,3 +26,14 @@ console.log(`${pessoa.nome} tem uma media de notas de ${mediaCalculada}`);
 
 const categoriaDesempenho = pessoa.avaliarDesempenho(mediaCalculada);
 console.log(`${pessoa.nome} possui: ${categoriaDesempenho}.`);
+//
+
+const pessoa2 = {
+  nome: "Ana",
+  notas: [6, 7, 8],
+  calcularMediaNotas: function () {
+    const somaNotas = this.notas.reduce((soma, nota) => soma + nota, 0);
+    const media = somaNotas / this.notas.length;
+    return media.toFixed(2);
+  },
+};
